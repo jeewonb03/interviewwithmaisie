@@ -1,0 +1,75 @@
+body {
+  background-color: #F8EFCE;
+  font-family: sans-serif;
+  color: rgb(74, 43, 16);
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: center;
+}
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 20px ;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  color: #4A2B10;
+}
+
+h2 {
+  font-size: 18px;
+  color: #A1444E;
+}
+
+p {
+  font-size: 16px;
+  color: rgba(74, 43, 16, 0.85);
+  margin-bottom: 40px;
+}
+
+.subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+img {
+  max-width: 290px;
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 15px auto;
+    margin-bottom: 50px;
+}
+
+a.one {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #A1444E;
+  color: #F8EFCE;
+  padding: 12px 25px;
+  font-size: 14px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+a.one:hover {
+  background-color: #8CB3C2;
+}
+
+a.two {
+  color:  rgba(74, 43, 16, 0.88);
+}
+
+a.two{
+  text-decoration: none;
+}
+a.two:hover {
+    background-color: rgba(229, 155, 139, 0.51);
+
+
+}
+
+ ::selection {
+color: #8CB3C2;
+}
